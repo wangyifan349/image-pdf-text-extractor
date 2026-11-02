@@ -40,7 +40,7 @@ python pdf_to_txt.py
 
 ## ₿ Support the project
 
-If this tool is useful to you, you can support its development with Bitcoin:
+If you’d like to support the developer, consider buying me a coffee with Bitcoin. Any support is greatly appreciated:
 
 `bc1q7ye9xq0gcp2z9dh5lzafgld6z29nzt5m68tsfj`
 
