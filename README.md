@@ -2,6 +2,10 @@
 
 A lightweight desktop app built with **Python 3** and **Tkinter**. Extract text from images and PDFs, review or edit the results, and save them as a UTF-8 text file. Everything runs locally; your files are not uploaded. 🔒
 
+## ℹ️ About
+
+This app extracts selectable text from PDFs and uses Tesseract OCR for images and PDF pages without selectable text. You can review and edit the extracted text before saving it as a TXT file.
+
 ## ✨ Features
 
 - 📂 Process multiple PDF and image files: PNG, JPG, JPEG, BMP, TIFF, and WebP.
