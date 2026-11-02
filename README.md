@@ -1,34 +1,45 @@
-# Image & PDF Text Extractor
+# 🧡 Image & PDF Text Extractor
 
-A small desktop app built with Python 3 and Tkinter. Extract text from images and PDFs, review or edit the result, and save it as a UTF-8 text file.
+A lightweight desktop app built with **Python 3** and **Tkinter**. Extract text from images and PDFs, review or edit the results, and save them as a UTF-8 text file. Everything runs locally; your files are not uploaded. 🔒
 
-## Features
+## ✨ Features
 
-- Process multiple PDF and image files (`PNG`, `JPG`, `BMP`, `TIFF`, and `WebP`).
-- Extract selectable text directly from PDFs.
-- Use Tesseract OCR for images and PDF pages that contain no selectable text.
-- Edit the extracted text before saving.
-- Runs locally; files are not uploaded.
+- 📂 Process multiple PDF and image files: PNG, JPG, JPEG, BMP, TIFF, and WebP.
+- 📄 Extract selectable text directly from PDFs.
+- 🔎 Run [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) on images and PDF pages without selectable text.
+- ✍️ Review and edit extracted text before saving.
+- 💻 Simple graphical interface built with [Tkinter](https://docs.python.org/3/library/tkinter.html).
 
-## Requirements
+## 🧰 Requirements
 
-- Python 3.9 or newer
+- [Python 3.9 or newer](https://www.python.org/downloads/)
 - Python packages:
 
   ```bash
   python -m pip install pymupdf pillow pytesseract
   ```
 
-- [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) for image and scanned-PDF OCR. Install the language data you need. For English, use `eng`; for Simplified Chinese and English, use `chi_sim+eng`.
+  - [PyMuPDF](https://pymupdf.readthedocs.io/) reads and renders PDF pages.
+  - [Pillow](https://pillow.readthedocs.io/) opens and processes images.
+  - [pytesseract](https://github.com/madmaze/pytesseract) connects Python to Tesseract OCR.
+- [Tesseract OCR](https://tesseract-ocr.github.io/) must also be installed for image and scanned-page OCR. Install the language data you need; for example, use `eng` for English or `chi_sim+eng` for Simplified Chinese and English.
 
-## Run
+## 🚀 Run
 
 ```bash
 python pdf_to_txt.py
 ```
 
-Click **Add Files**, choose an OCR language, and click **Extract Text**. Review or edit the result, then click **Save as TXT**.
+1. Click **Add Files** and choose one or more images or PDFs.
+2. Set the OCR language, then click **Extract Text**.
+3. Review or edit the result and click **Save as TXT**. 💾
 
-## License
+## ₿ Support the project
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE).
+If this tool is useful to you, you can support its development with Bitcoin:
+
+`bc1q7ye9xq0gcp2z9dh5lzafgld6z29nzt5m68tsfj`
+
+## 📜 License
+
+Released under the [MIT License](LICENSE).
